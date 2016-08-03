@@ -4,7 +4,7 @@ public class Solution {
             left--;
             right++;
         }
-        return s.substring(left+1, right);
+        return s.substring(left+1, right); // Note substring = [left, right)
     }
     public String longestPalindrome(String s) {
         if (s == null) return null;
